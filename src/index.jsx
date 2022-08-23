@@ -13,7 +13,7 @@ const activeChainId = ChainId.Rinkeby;
 ReactDOM.render(
   <React.StrictMode>
     <ThirdwebProvider desiredChainId={activeChainId}>
-      <App />
+      <App></App>
     </ThirdwebProvider>
   </React.StrictMode>,
   document.getElementById('root'),
